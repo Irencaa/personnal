@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+    <title>Irene's website</title>
+</head>
+<body>
+  <div class ="main-container">
+    <header>
+     <div class="container">
+        <button>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>     
+        </button>
+        <h1>Irene Eweka</h1>
+  </div>
+    
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="photo.html">Photo</a></li>
+      </ul>
+    </nav>
+</header>
+
+  <div class ="para-img">
+    <div class="para">
+        <p>Hello! My name is Irene Eweka, and I am a passionate computer programming student. As a proud member of Gen Z, I bring a fresh perspective to the world of technology. At 22 years old, I recently graduated from 
+            St. Clair College in 2023 with a degree in Community and Justice Services. Beyond my studies, I have a keen interest in exploring new culinary experiences and love visiting new restaurants whenever I can.
+            I am excited about the opportunities that lie ahead in the dynamic field of computer programming, and I am eager to continue learning and growing in this ever-evolving industry</p>
+         </div>
+   
+         <div class="img">
+         <img src="images/irenephoto.jpg" alt="irene">
+        </div>
+    </div>
+  </div>
+  
+
+    
+    <script>
+
+      const button = document.querySelector('button')
+      const nav = document.querySelector('nav')
+  
+      button.addEventListener('click', function() {
+        nav.classList.toggle('active')
+      })
+  
+    </script>
+
+
+    <footer>
+        <div class="footer-container">
+          <div class="footer-icons">
+            <ul>
+              <li><a href="https://www.linkedin.com/in/irene-eweka-20b1a8259/" ><i class="fa-brands fa-linkedin"></i></a></li>
+              <li><a href="https://github.com/Irencaa"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+          </div>
+       
+          <div class="copyright">
+              2024 &copy; by Irene Eweka. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
+     
+  
+  
+      
+ 
+  
+</body>
+</html>
