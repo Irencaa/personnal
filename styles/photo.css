@@ -20,8 +20,7 @@ body {
     font-weight:  400px;
     color: purple;
     text-align: center;
-    justify-content: center;
-    align-items: center; 
+    
 }
 
 .photo-container{
@@ -29,8 +28,8 @@ body {
     justify-content: space-evenly;
     align-items: center;
     gap: 30px;
-    padding-top: 50px;
-    padding-right: 200px;
+    padding-top: 54px;
+    padding-right: 50px;
 }
 
 nav ul {
