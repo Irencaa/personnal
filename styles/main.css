@@ -6,10 +6,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body {
-    background-image: url("/images/bacckkk.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #EACCB9;
     height: 100vh;
 }
 

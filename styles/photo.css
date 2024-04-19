@@ -8,11 +8,9 @@
 }
 
 body {
-    background-image: url("/images/bacckkk.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #EACCB9;
     height: 100vh;
-}
+    }
 
 .photo-h1{
     font-family: "Dancing Script", cursive;
@@ -68,6 +66,12 @@ nav ul li a:hover {
     padding-top: 20px;
 }
 
+.atmosphere {
+    padding-top: 20px;
+}
+
+
+
 .out-image {
     width: 100%;
     overflow: hidden;
@@ -91,17 +95,6 @@ nav ul li a:hover {
 .column-image img:hover {
     transform: scale(1.9); 
 }
-
-/* .atmosphere {
-    cursor: pointer;
-    text-decoration: underline; 
-}
-
-.atmosphere-link:hover {
-    text-decoration: none;
-    color: darkblue; 
-} */
-
 
 .main-pContainer {
     padding: 0% 1rem;
