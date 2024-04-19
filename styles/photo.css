@@ -4,10 +4,10 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+/* 
 body{
     background-color: bisque;
-}
+} */
 
 .photo-h1{
     font-family: 'Roboto Slab', serif;
@@ -22,7 +22,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #b7a28b;
+    /* background-color: #b7a28b; */
 }
 
 nav ul {
@@ -77,7 +77,7 @@ nav ul li a:hover {
 }
 
 .column-image img:hover {
-    transform: scale(1.1); 
+    transform: scale(1.9); 
 }
 
 .atmosphere {
@@ -89,3 +89,4 @@ nav ul li a:hover {
     text-decoration: none;
     color: darkblue; 
 }
+
